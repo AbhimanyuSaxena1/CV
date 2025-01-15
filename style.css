@@ -9,8 +9,8 @@ body {
   width: 100%;
 }
 @font-face {
-    font-family: plain;
-    src: url("plain-regular-webfont.ttf");
+  font-family: plain;
+  src: url("plain-regular-webfont.ttf");
 }
 #main {
   height: 100%;
