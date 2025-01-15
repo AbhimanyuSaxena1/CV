@@ -8,6 +8,10 @@ body {
   height: 100%;
   width: 100%;
 }
+@font-face {
+    font-family: plain;
+    src: url("plain-regular-webfont.ttf");
+}
 #main {
   height: 100%;
   width: 100%;
@@ -20,7 +24,7 @@ body {
   justify-content: center;
   align-items: center;
   gap: 2vw;
-  font-family: gilroy;
+  font-family: plain;
   font-size: 1.5vw;
   padding: 4vw 4vw 4vw 4vw;
   text-transform: capitalize;
