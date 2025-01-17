@@ -120,8 +120,17 @@ i {
   font-family: plain;
   margin-bottom: 2vw;
 }
-ul {
+#education ul {
+  font-family: plain;
+  list-style-type: circle;
   margin-bottom: 1vw;
+}
+#education ul>ul{
+  list-style-type: none;
+  /* background-color: aquamarine; */
+}
+#education>ul>ul>h4{
+  color: red;
 }
 #education h3 {
   padding-left: 1vw;
@@ -193,4 +202,113 @@ ul {
     margin-bottom: .5vw;
     /* padding-left: 1vw; */
     margin-left: 2.5vw;
+}
+@media (max-width:600px) {
+  #main {
+    height: 100%;
+    width: 100%;
+    background-color: #fff;
+    padding-left: 4vw;
+    padding-right: 4vw;
+  }
+  #header {
+    font-size: 2.5vw;
+    letter-spacing: 1.5vw;    /* background-color: red; */
+  }
+  
+  #subHead {
+    height: 5%;
+  }
+  #subHead h2 {
+    font-size: 3vw;
+  }
+  #contact {
+    height: 20%;
+    margin-bottom: 2vw;
+    /* background-color: red; */
+  }
+  #skills {
+    height: 10%;
+  }
+  #contact li{
+    font-size: 2.5vw;
+  }
+  #contact h1 {
+    font-size: 4vw;
+  }
+  i{
+    font-size: 3vw;
+    margin-right: 3vw;
+  }
+  #skills h1 {
+    font-size: 4vw;
+  }
+  
+  #skills h3 {
+    font-size: 2vw;
+  }
+  
+#education ul {
+  font-family: plain;
+  list-style-type: circle;
+  margin-bottom: 1vw;
+}
+#education ul>ul{
+  list-style-type: none;
+  /* background-color: aquamarine; */
+}
+#education>ul>ul>h4{
+  color: red;
+}
+#education h1{
+  font-size: 4vw;
+  margin-bottom: 2vw;
+}
+#education ul{
+  margin-left: 2vw;
+  font-size: 2.5vw;
+}
+#education sup {
+  font-size: 1.5vw;
+}
+#education li {
+  margin-left: 2.4vw;
+}
+#education h4 {
+  /* margin-left: 1vw; */
+  /* padding-left: 1vw; */
+  font-size: 1.5vw;
+  font-weight: 300;
+  opacity: .8;
+}
+  #article2 {
+    width: 50%;
+    height: 100%;
+    padding-left: 2vw;
+    /* background-color: aqua; */
+  }
+  #about {
+    margin-bottom: 4vw;
+  }
+  #about h1 {
+    text-align: center;
+    font-size: 4vw;
+  }
+  #about p {
+    font-size: 2.5vw;
+    line-height: 3vw ;
+    text-align: center;
+  }
+  #about>p>span{
+      font-size: 2.5vw;
+  }
+  #projects h1{
+    font-size: 4vw;
+  }
+  #projects li{
+    font-size: 2.5vw;
+    margin-bottom: .5vw;
+      /* padding-left: 1vw; */
+      margin-left: 2.5vw;
+  } 
 }
